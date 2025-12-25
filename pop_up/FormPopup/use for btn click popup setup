@@ -1,4 +1,7 @@
- const [iscbUpOpen, setIsCbUpOpen] = useState(false);
+import { Icon } from "@iconify/react";
+
+
+const [iscbUpOpen, setIsCbUpOpen] = useState(false);
     const callbackRef = useRef<HTMLDivElement>(null);
 
     const handleClickOutside = (event: MouseEvent) => {
